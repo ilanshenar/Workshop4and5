@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NewsFeed from './components/feed';
+import Feed from './components/feed';
 
 ReactDOM.render(
 <NewsFeed />,
