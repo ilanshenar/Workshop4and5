@@ -40,6 +40,7 @@ placeholder="What's on your mind?">
 <span className="glyphicon glyphicon-user"></span>
 </button>
 <button type="button" className="btn btn-default">
+<span className="glyphicon glyphicon-heart"></span>
 </button>
 <button type="button" className="btn btn-default">
 <span className="glyphicon glyphicon-pushpin"></span>
