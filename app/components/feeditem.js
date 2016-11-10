@@ -142,9 +142,13 @@ like this
 data.comments.map((comment, i) => {
 // i is comment's index in comments array
 return (
-<Comment key={i}
-author={comment.author}
-postDate={comment.postDate}>
+<Comment key={i} 
+comment={data._id} 
+commentIndex={i}
+ author={comment.author}
+  postDate={comment.postDate} 
+  data={comment}
+  likeCounter = {comment.likeCounter}> 
 {comment.contents}
 </Comment>
 );

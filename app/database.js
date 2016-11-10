@@ -7,23 +7,23 @@ var initialData = {
 // This user has id "1".
 "1": {
 "_id": 1,
-"fullName": "Someone",
+"fullName": "Someone ",
 "feed": 1
 },
 "2": {
 "_id": 2,
-"fullName": "Someone Else",
+"fullName": "Someone Else ",
 "feed": 2
 },
 "3": {
 "_id": 3,
-"fullName": "Another Person",
+"fullName": "Another Person ",
 "feed": 3
 },
 // This is "you"!
 "4": {
 "_id": 4,
-"fullName": "John Vilk",
+"fullName": "John Vilk ",
 // ID of your feed.
 "feed": 4
 }
@@ -60,12 +60,14 @@ var initialData = {
 "contents": "hope everything is ok!",
 // The date the comment was posted.
 // 01/24/16 22:00 EST
-"postDate": 1453690800000
+"postDate": 1453690800000,
+"likeCounter": []
 },
 {
 "author": 3,
 "contents": "sending hugs your way",
-"postDate": 1453690800000
+"postDate": 1453690800000,
+"likeCounter": []
 }
 ]
 }
